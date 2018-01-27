@@ -1,0 +1,18 @@
+body{
+  background-image: url(3.png);
+}
+div {
+  width: 300px;
+  height: 200px;
+  margin: 60px auto;
+}
+p:first-letter{
+  color: red;
+  font-size: 28px;
+}
+p:first-line{
+  color: blue;
+}
+ {
+  color: blue;
+}

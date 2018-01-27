@@ -1,0 +1,17 @@
+body{
+  background-color: bisque;
+  font-family: verdana;
+}
+div{
+  margin-left: 15px;
+  margin-top: 10px;
+  border-left: 3px dotted blue;
+  height: 160px;
+  width: 300px;
+}
+p {
+  text-align: justify;
+  text-indent: 1.5em;
+  word-spacing: 5px;
+  padding-left: 15px;
+}

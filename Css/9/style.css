@@ -1,0 +1,29 @@
+body{
+  background-color: #008b8b;
+  font-family: verdana;
+}
+#first, #two, #three{
+  background-color: #f5f5dc;
+  color: #dd691e;
+  border-top: 7px double green;
+  border-bottom: 7px double green;
+  margin-left: 30px;
+  margin-top: 25px;
+  width: 400px;
+  height: 95px;
+  padding: 5px 20px;
+}
+p {
+  text-align: justify;
+  text-indent: 1.5em;
+}
+#first {
+  overflow: auto;
+}
+#two {
+  overflow: hidden;
+}
+#three {
+  overflow: scroll;
+  word-spacing: 1px;
+}

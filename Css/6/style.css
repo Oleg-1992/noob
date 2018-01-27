@@ -1,0 +1,13 @@
+body{
+  background-image: url(6.png);
+}
+div {
+  margin: 50px auto;
+  width: 350px;
+}
+p a{
+  font-size: 0.8em;
+  text-align: center;
+  margin-top; -10;
+  display: block;
+}
