@@ -1,0 +1,45 @@
+div{
+  color: grey;
+  width: 550;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 5px 30px;
+}
+h3{
+  color: black;
+}
+.box{
+  background-color: whitesmoke;
+  padding: 3px;
+  border-radius: 3px;
+  color: black;
+  font-size: 14px;
+}
+.box-scroll{
+  background-color: whitesmoke;
+  padding: 3px;
+  border-radius: 3px;
+  overflow-x: scroll;
+  color: black;
+  font-size: 14px;
+  white-space: nowrap;
+}
+  )
+.black{
+  color: black;
+}
+.darkblue{
+  color: darkblue;
+}
+.seagreen{
+  color: seagreen;
+}
+.red{
+  color: red;
+}
+.blue{
+  color: dodgerblue;
+}
+i {
+  color: olive;
+}
