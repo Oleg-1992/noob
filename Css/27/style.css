@@ -1,0 +1,44 @@
+body {
+  font-family: serif;
+}
+div {
+  background: white;
+  width: 550px;
+  height: 150px;
+  margin: 60px auto;
+  position: relative;
+}
+.Sale {
+  font-size: 24px;
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  }
+.time1 {
+  font-weight: bold;
+  color: red;
+  font-size: 28px;
+  position: absolute;
+  left: 20px;
+  top: 60px;
+}
+.Sale2 {
+  width: 120px;
+  padding: 10px;
+  font-size: 24px;
+  border: 1px dashed red;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-weight: bold;
+}
+.numb {
+ font-size: 50px;
+ font-weight: bold;
+ color: red;
+}

@@ -1,0 +1,19 @@
+body{
+  background-image: url(16.png);
+}
+.block {
+  width: 100px;
+  height: 40px;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  margin: 30% 0% 0% 0%;
+  float: left;
+}
+.text {
+  width: 800px;
+  text-align: justify;
+  float: right;
+  }

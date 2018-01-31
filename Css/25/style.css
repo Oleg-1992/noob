@@ -1,0 +1,66 @@
+body{
+  background-image: url(25.png);
+}
+Div{
+  width: 530px;
+  margin: 50px auto;
+}
+span {
+  font-size: 50px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  line-height: 70px;
+  }
+  .el{
+    margin-left: -35px;
+  }
+.block1{
+  position: relative;
+  display: inline-block;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  background: black;
+  top: -30px;
+}
+
+.block2{
+  position: relative;
+  display: inline-block;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  background: black;
+  top: -30px;
+  left: 13px;
+}
+.block3{
+  position: relative;
+  display: inline-block;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  background: black;
+  top: -13px;
+  left: -25px;
+}
+.block4{
+  position: relative;
+  display: inline-block;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  background: black;
+  top: 4px;
+  left: -63px;
+}
+.block5{
+  position: relative;
+  display: inline-block;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  background: black;
+  top: 4px;
+  left: -50px;
+}

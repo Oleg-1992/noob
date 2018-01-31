@@ -1,0 +1,42 @@
+#big-block {
+width: 490px;
+height: 330px;
+background-color: gray;
+position: relative;
+margin: 10px auto;
+}
+.block1, .block2, .block3, .block4, .block5, .block6{
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+.block1{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.block2{
+  position: absolute;
+  top: 10px;
+  left: 170px;
+}
+.block3{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.block4{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.block5{
+  position: absolute;
+  bottom: 10px;
+  left: 170px;
+}
+.block6{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

@@ -1,0 +1,41 @@
+body{
+  font-family: serif;
+  font-size: 17px;
+}
+div {
+  width: 550px;
+  padding: 5px 30px;
+}
+h1{
+  margin-bottom: 0;
+}
+h1::after{
+  border-top: 1px solid red;
+  top: 50%;
+  position: absolute;
+  left: 70%;
+  right: 0;
+  content: "";
+}
+#text{
+  margin-top: 0;
+  color: gray;
+  font-size: 14px;
+  font-style: italic;
+}
+h1, h2{
+font-weight: normal;
+color: b41f23;
+position: relative;
+}
+a{
+  color: a96c69;
+}
+.box{
+  background-image: linear-gradient(to bottom, gray, black);
+  padding: 20px 10px;
+  color: white;
+  font-size: 12px;
+  height: 20px;
+  display: block;
+  }

@@ -1,0 +1,46 @@
+body{
+  background-color: 008b8b;
+}
+#block{
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 40px auto;
+  position: relative;
+}
+#red{
+  border: 2px solid black;
+  background-color: red;
+  width: 90px;
+  height: 60px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+#blue{
+  border: 2px solid black;
+  background-color: blue;
+  width: 90px;
+  height: 150px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+#green{
+border: 2px solid black;
+background-color: green;
+width: 210px;
+height: 150px;
+position: absolute;
+right: 30px;
+top: 30px;
+}
+#yellow{
+border: 2px solid black;
+background-color: yellow;
+width: 210px;
+height: 60px;
+position: absolute;
+right: 30px;
+bottom: 30px;
+}
