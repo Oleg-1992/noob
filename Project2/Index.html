@@ -1,0 +1,22 @@
+<html>
+ <head>
+  <title>Форма</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+   <div class="block">
+   <form action="handler.php" method="post">
+     <h4>Поля отмеченные крестиком, обязательны для заполнения</h4>
+    <div>Имя
+    <input type="text" name="name"required><span></span></div>
+    <div>Дата рождения
+    <input type="date"><span></span></div>
+    <div>E-mail
+    <input type="email" name="E-mail" required><span></span></div>
+    <div>Сайт
+    <input type="url" name="url"><span></span></div>
+    <div><input type="image" src="but.png" id="but"></div>
+  </form>
+  </div>
+ </body>
+</html>
