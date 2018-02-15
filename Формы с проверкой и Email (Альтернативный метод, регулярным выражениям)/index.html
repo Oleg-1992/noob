@@ -1,0 +1,64 @@
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Home</title>
+   <script type="text/javascript">
+   function valid (form) {
+     var fail = false;
+     var name = form.name.value; //переменная которая обращается к Имени name="name"
+     var email = form.email.value; //переменная которая обращается к email
+     var password = form.password.value; //переменная которая обращается к Паролю name="password"
+     var RePassword = form.RePassword.value; //переменная которая обращается к Проверке пароля name="RePassword"
+     var state = form.state.value; //переменная которая обращается к Полу name="state"
+
+     var adr_pattern = /[0-9a-z_-]+@[0-9a-z_-]+\.[a-z]{2.5}/i; // переменная с регулярным выражением
+
+
+     if(name == "" || name == " ") //Проверка поля
+      fail = "Вы не ввели свое имя";
+     else if(email.split('@').lenght - 1 == 0)
+      fail = "Вы ввели Email не правильно";
+     /*else if (adr_pattern.test(email) == false) //Сначала ссылаемся на перуменную, после функция test
+           // и в функции test пишем переменную которую хотим проверить. После проверяем на соответствие если она будет равна== false.
+           // То "вы ввели email не правильно"
+      fail = "Вы ввели Email не правильно";*/
+     else if(password == "") //Проверка поля
+      fail = "Вы не ввели пароль";
+     else if(password != RePassword) //Проверка поля (если пароль НеРавен"!=" Проверке пароля)
+      fail = "Пароли не совпадают";
+     else if(state == "") //Проверка поля
+      fail = "Укажите пол";
+     if(fail)
+      alert(fail);
+     else
+      window.location = "http://google.com"; //перенаправление по указанному адрессу
+       // window(объект) location(функция)
+       //есть еще одна функция(reload) она просто пережагружает страничку
+ }
+ </script>
+ </head>
+  <body>
+    <form action="" method="post" name="test" id="form">
+      <label for="name">Имя</label>
+      <input type="text" name="name" placeholder="Имя" id="name"><br><br>
+      <label for="email">Email</label>
+      <input type="text" name="email" placeholder="Email" id="email"><br><br>
+      <label for="password">Пароль</label>
+      <input type="password" name="password" placeholder="Пароль" id="password">
+      <br><br>
+      <label for="RePassword">Проверка пароля</label>
+      <input type="text" name="RePassword" placeholder="Введите пароль"
+       id="RePassword">
+      <br><br>
+      <span>Пол:</span>
+      <input type="radio" name="state" id="male" value="Мужской">
+      <label for="male">Мужской</label>
+      <input type="radio" name="state" id="female" value="Женский">
+      <label for="female">Женский</label>
+      <br><br>
+      <input type="button" name="submit" onclick="valid(document.getElementById('form'))"
+      value="Готово">
+    </form>
+  </body>
+</html>
+<!-- Тоже не прокатывает Email-->
