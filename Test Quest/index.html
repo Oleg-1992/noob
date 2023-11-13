@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <section>
+    <div class="wrapper">
+      <!-- боковое меню -->
+      <div class="menu">
+        <div class="menu_list">
+          <div class="menu_list_items">
+            <a href="#" class="menu_list_items_a"><img src="img/personal_data.svg" alt="">Данные</a>
+            <a href="#" class="menu_list_items_a"><img src="img/truck.svg" alt="">Доставка</a>
+            <a href="#" class="menu_list_items_a"><img src="img/settings.svg" alt="">Настройки</a>
+            <a href="#" class="menu_list_items_a"><img src="img/message.svg" alt="">Поддержка</a>
+            <a href="#" class="menu_list_items_a"><img src="img/card.svg" alt="">Оплата</a>
+            <a div class="menu_exit menu_list_items_a" href="#">Выйти<img src="img/exit.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- блок с контентом -->
+      <div class="content">
+
+        <div class="avatar_button">
+          <div class="avatar">
+            <img src="img/ava.png" alt="">
+            <button class="pencil_fill"> <img src="img/pencil-fill.svg" alt=""></button>
+          </div>
+
+          <div class="btn">
+            <button class="btn_adress">Ваши адреса</button>
+            <button class="btn_history">История заказов</button>
+          </div>
+        </div>
+
+
+        <div class="content_about">
+
+          <form class="form_about">
+
+            <div class="about_content">
+              <h1 class="about_title">О вас</h1>
+
+
+
+              <div class="field">
+                <input class="input_field" type="text" name="nameUser" id="nameUserForm" minlength="3" placeholder="">
+                <label class="label_field" for="nameUserForm">Имя
+                </label>
+
+              </div>
+
+
+              <div class="field">
+                <input class="input_field" type="text" name="surName" id="surNameForm" placeholder="">
+                <label class="label_field" for="surNameForm">Фамилия
+                </label>
+              </div>
+
+              <div class="field">
+                <input class="input_field" type="date" name="birthDay" id="birthDayForm" placeholder=" ">
+                <label class="label_field" for="birthDayForm">Дата рождения
+                </label>
+              </div>
+
+            </div>
+
+            <div class="contact_content">
+              <h1 class="contact_title">Контакты</h1>
+
+              <div class="field">
+                <input class="input_field" type="tel" name="telUser" id="telUserForm" placeholder="" required>
+                <label class="label_field" for="telUserForm">Телефон</label>
+              </div>
+              <div class="field">
+                <input class="input_field" type="email" name="emailUser" id="emailUserForm" placeholder="">
+                <label class="label_field" for="emailUserForm">Почта</label>
+              </div>
+
+            </div>
+          </form>
+
+
+
+        </div>
+      </div>
+
+      <!-- Млбильное меню -->
+      <div class="mobile_bar">
+        <ul class="mobile_menu">
+          <li class="mobile-menu_list"><a href="#"><img src="img/house.svg" alt="">Главная</a></li>
+          <li class="mobile-menu_list"><a href="#"><img src="img/list.svg" alt="">Каталог</a></li>
+          <li class="mobile-menu_list"><a href="#"><img src="img/bucket.svg" alt="">Корзина</a></li>
+          <li class="mobile-menu_list"><a href="#"><img src="img/like.svg" alt="">Избранное</a></li>
+          <li class="mobile-menu_list"><a href="#"><img src="img/profile.svg" alt="">Профиль</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
